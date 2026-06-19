@@ -1,3 +1,4 @@
+
 # Project_EscapeRoom
 
 Unreal Engine 5.7 / Blueprint로 제작한 방탈출(Escape Room) 시뮬레이션 프로젝트입니다.
@@ -30,6 +31,9 @@ flowchart LR
     C -- 일치 --> D[인터페이스 함수 실행 → 잠금 해제 동작 수행]
     C -- 불일치 --> E[동작 없음]
 ```
+
+<img width="400" height="225" alt="2026-06-19 23-11-14" src="https://github.com/user-attachments/assets/8e102d9b-1389-48ff-a6fb-8cdede15f80e" />
+
 
 이 구조의 장점은, 새로운 문/열쇠 조합을 추가하거나 기존 오브젝트의 동작을 바꿀 때 **블루프린트 그래프를 수정하지 않고 DataTable 값만 변경하면 된다는 점**입니다. 콘텐츠 추가와 유지보수가 쉬운 구조를 목표로 설계했습니다.
 
